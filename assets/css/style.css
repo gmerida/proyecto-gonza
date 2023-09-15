@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+@import url("/proyecto_web-main/proyecto-juanm/assets/css/header.style.css");
+@import url("/proyecto_web-main/proyecto-juanm/assets/css/footer.style.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+
+.banner {
+  position: relative;
+  height: 17rem;
+  background-image: url(/proyecto_web-main/proyecto-juanm/assets/media/img/background/e83e2f0a6e41008=s1900.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.banner h1 {
+  font-size: 70px;
+  margin: 1rem 0 0 2rem;
+}
+
+/* CARRUSEL------------------------------------------------------------------------------------------------------------------------------------- */
+h4 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 54px;
+}
+h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+  margin-bottom: 1em;
+}
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin-bottom: 1em;
+}
+.price {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 1em;
+}
+.cuotas {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #1d84b5;
+  margin-bottom: 1em;
+}
+
+.products {
+  width: 80%;
+  margin: 2rem auto;
+}
+.prod-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.item {
+  background-color: #ffffff;
+  width: calc(25%);
+  height: 24rem;
+  position: relative;
+  transition: all 0.5s ease;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.item:hover {
+  border: 1px solid #33333345;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #30343f7e;
+  padding: 1.5rem;
+}
+
+.prod-img {
+  width: 100%;
+}
+
+.products {
+  position: relative;
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.chevron.izq {
+  left: -40px;
+}
+
+.chevron.der {
+  right: -40px;
+}
+
+/* CATEGORIAS------------------------------------------------------------------------------------------------------------------------------------- */
+.categ-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 2rem 1rem 3rem 1rem;
+}
+
+.categ-item {
+  color: #333333;
+  flex: 0 0 calc(33.33% - 10px);
+  padding: 3rem;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  background-image: url(/proyecto_web-main/proyecto-juanm/assets/media/img/background/03f36e72bd5a5e5=s1900.webp);
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.categ-item:hover {
+  color: #ffffff;
+  border: 1px solid #444444;
+  box-shadow: 0 0 20px #30343f7e;
+}
+
+.categ-item > h4 {
+  text-shadow: 0 0 10px #ffffff;
+}
+.categ-item > h4:hover {
+  text-shadow: 0 0 10px #444444;
+}
+
+/* SPONSORS------------------------------------------------------------------------------------------------------------------------------------- */
+.sponsors-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
